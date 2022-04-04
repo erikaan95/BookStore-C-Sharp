@@ -1,0 +1,26 @@
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+
+
+// BONUS //
+Console.WriteLine("Inserisci Titolo");
+string Titolo = Console.ReadLine();
+
+Console.WriteLine("Inserisci l'autore");
+string Autore = Console.ReadLine();
+
+string ISBN = "12868";
+Console.WriteLine("Inserisci l'ISBN");
+ISBN = Console.ReadLine();
+
+Console.WriteLine("Inserisci numero di pagine");
+string numeroPagine = Console.ReadLine();
+
+Console.WriteLine("Inserisci il peso del libro");
+float PesoDelLibro = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Inserisci le dimensioni del libro");
+string Larghezza = Console.ReadLine();
+
+Console.WriteLine("Inserisci la valutazione media");
+float ValutazioneMedia = float.Parse(Console.ReadLine());
